@@ -353,11 +353,12 @@ margin-bottom: 8px;
 .title-team{
     margin-bottom: 72px;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: var(--title-text-color);
+    
 
 }
 .team-cards{
@@ -411,10 +412,11 @@ height: 100%;
 fill: var(--border-color-secondary);
 border: 1px solid var(--border-color-secondary);
 border-radius: 4px;
+color: var(--border-color-secondary);
 }
 .customers-icon:hover,
 .customers-icon:focus{
-    fill: var(--hover-focus-color);
+    color: var(--hover-focus-color);
     border-color: var(--hover-focus-color);
 }
 .customers-item{
@@ -422,7 +424,9 @@ border-radius: 4px;
     height: 88px;
    
 }
-
+.customers-svg{
+    fill: currentColor;
+}
 /* Footer */
 .footer{
     background-color: var(--title-text-color);
